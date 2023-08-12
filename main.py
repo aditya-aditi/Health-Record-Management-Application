@@ -88,5 +88,7 @@ while True:
         new_record()
     elif user_Options == 3:
         retrieve_records()
-    else:
+    elif user_Options == 4:
         retrieve_name()
+    else:
+        print("Choose a valid option!")
