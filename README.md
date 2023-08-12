@@ -40,9 +40,9 @@ The Health Record Management Application is a Python-based command-line tool des
 Contributions are welcome! To contribute:
 
 1. Fork the repository.
-2. Create a new branch: git checkout -b feature-name.
-3. Commit changes: git commit -am 'Add new feature'.
-4. Push to the branch: git push origin feature-name.
+2. Create a new branch: ```git checkout -b feature-name```.
+3. Commit changes: ```git commit -am 'Add new feature'```.
+4. Push to the branch: ```git push origin feature-name```.
 5. Submit a pull request.
 
 ## Report Issues
