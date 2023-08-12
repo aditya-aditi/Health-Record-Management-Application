@@ -9,7 +9,7 @@ The Health Record Management Application is a Python-based command-line tool des
 
 ## Features
 
-- Add infinite number of patients
+- Add infinite number of patients.
 - Track daily food intake, including meals and snacks.
 - Log medical checkup details.
 - Record exercise routines, duration, and types of exercises.
