@@ -15,8 +15,7 @@ def add_patient():
     f = open("patient_details.txt", "r")
     lines = f.readlines()
     for line in lines:
-        line_1 = line.strip()
-        line_1 = line.split(" ")
+        line_1 = line.strip().split(" ")
         if patient_id == int(line_1[0]):
             make_file = False
             break
@@ -39,7 +38,7 @@ def new_record():
         return
     for category in records_categories:
         print(category)
-    record_category_input = input("In which category do you want to add the record").lower()
+    record_category_input = input("In which category do you want to add the record").lower().strip()
     new_record = input("Write the entry")
     record_time = time.strftime("%H:%M")
     with open(f"{patient_id}_{record_category_input}.txt", "a") as f:
